@@ -1,0 +1,42 @@
+.itemContainer {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    font-family: Poly-sans, sans-serif;
+}
+
+.itemImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.itemContent {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.itemName {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #393e46;
+}
+
+.itemButton {
+    background-color: #29bb89;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
